@@ -1,0 +1,44 @@
+{
+    "notify": {
+        "cancel-rob": "Vous avez arrêté de voler la caisse",
+        "cooldown": "Cela semble être une mauvaise idée - Je devrais attendre",
+        "no-police": "Il n'y a pas assez de policiers en ville",
+        "missing-item": "Je pense que ce serait plus facile si j'avais un outil",
+        "item-broke": "Vous avez cassé le crochet et n'avez pas réussi à ouvrir la caisse",
+        "failed-hack": "Vous avez échoué à pirater l'ordinateur",
+        "wrong-pin": "Cela ne semble pas correct.. c'est toujours verrouillé",
+        "failed-limit": "Vous avez échoué trop de fois et n'avez pas réussi à voler le magasin"
+    },
+    "target": {
+        "register": "Voler la caisse",
+        "computer": "Connexion",
+        "safe": "Déverrouiller"
+    },
+    "alerts": {
+        "note": {
+            "header": "**Note Trouvée**",
+            "content": "Vous avez trouvé une note intéressante sous la caisse avec seulement les numéros suivants écrits dessus : %s"
+        },
+        "hack": {
+            "header": "**Code Exposé**",
+            "content": "Vous avez réussi à pirater l'ordinateur et trouvez le code suivant : %s"
+        }
+    },
+    "inputs": {
+        "questions": {
+            "header": "Questions de Sécurité"
+        },
+        "safe": {
+            "header": "Coffre du Magasin",
+            "label": "Entrez le PIN",
+            "desc": "Saisissez le PIN pour déverrouiller le coffre",
+            "placeholder": "1234"
+        }
+    },
+    "logs": {
+        "register-robbed-title": "Caisse Volée",
+        "register-robbed-message": "%s (identifiant : %s) a réussi à voler une caisse pour %s",
+        "safe-robbed-title": "Coffre Volé",
+        "safe-robbed-message": "%s (identifiant : %s) a réussi à voler un coffre pour %s"
+    }
+}
